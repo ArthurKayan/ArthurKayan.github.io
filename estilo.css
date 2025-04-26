@@ -54,11 +54,10 @@ main {
 }
 
 section {
-    color: white;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
   
 }
 footer {
