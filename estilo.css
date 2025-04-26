@@ -6,10 +6,11 @@ body {
 }
 /* Add your styles here */
 .header-container {
+    text-decoration-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1c55bd;
+    background-color: #000000;
     padding: 10px;
 }
 
