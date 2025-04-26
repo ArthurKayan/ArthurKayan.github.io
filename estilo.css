@@ -1,5 +1,5 @@
 body {
-    background-color: #7b64de;
+    background-color: #000000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -54,6 +54,7 @@ main {
 }
 
 section {
+    color: white;
     background-color: white;
     border-radius: 5px;
     padding: 20px;
