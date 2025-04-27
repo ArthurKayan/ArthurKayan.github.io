@@ -28,7 +28,6 @@ body {
 .nav-list a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    
 }
 
 h1 {
@@ -62,7 +61,6 @@ section {
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgb(255, 255, 255);
-  
 }
 img {
     min-height: 100px;
