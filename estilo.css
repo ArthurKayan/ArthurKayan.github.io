@@ -36,7 +36,8 @@ h1 {
     font-weight: bold;
     margin: 10px auto 10px auto; /* Adds 20px space below the h1 */
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
 }
 .background {
 
