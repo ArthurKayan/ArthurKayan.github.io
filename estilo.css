@@ -218,6 +218,7 @@ h1 {
     font-size: 1.1rem;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Espaçamento entre botões */
 }
 
 /* Botão do Instagram */
@@ -247,12 +248,24 @@ h1 {
 
 /* Responsividade */
 @media (max-width: 600px) {
+    /* Ajusta o tamanho da fonte e o espaçamento dos botões em telas menores */
     .contatos-container {
-        flex-direction: column;
+        flex-direction: column; /* Empilha os botões verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
+        gap: 15px; /* Espaço entre botões */
     }
-    
+
     .contato-link {
-        width: 100%;
-        justify-content: center;
+        width: 80%; /* Largura maior para fácil toque */
+        justify-content: center; /* Centraliza o texto */
+        padding: 15px 0; /* Mais área de toque */
     }
+
+    /* Ajuste opcional para telas muito pequenas */
+    @media (max-width: 480px) {
+        .contato-link {
+            width: 90%;
+            font-size: 1rem; /* Reduz um pouco o texto */
+        }
+}
 }
