@@ -259,6 +259,8 @@ h1 {
         width: 80%; /* Largura maior para fácil toque */
         justify-content: center; /* Centraliza o texto */
         padding: 15px 0; /* Mais área de toque */
+        text-align: center; /* Centraliza o texto dentro do botão */
+        margin: auto; /* Centraliza o botão na tela */
     }
 
     /* Ajuste opcional para telas muito pequenas */
