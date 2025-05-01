@@ -111,7 +111,7 @@ body.pagina-curriculo {
 
 .nav-list a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 102, 255);
 }
 
 main {
@@ -121,15 +121,19 @@ main {
 }
 
 .curriculo-section {
-    background-color: #1e0eff;
+    background-color: #005eff;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 5px rgb(0, 21, 205);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    color: rgba(0, 0, 0, 0)
+}
+.Mensagem{
+color: #ffffff;
 }
 
 h1 {
