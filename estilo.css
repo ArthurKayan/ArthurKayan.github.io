@@ -48,15 +48,6 @@ h1 {
     z-index: -1;
 }
 
-main {
-    padding: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 section {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -83,4 +74,108 @@ footer {
     width: 100%;
 }
 
+.ideias-container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
 
+body.pagina-curriculo {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.header-container {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.curriculo-section {
+    background-color: #1e0eff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; /* Garante que ocupe toda a largura */
+}
+
+.botao-curriculo {
+    display: inline-block;
+    background: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    transition: background 0.3s;
+}
+
+.botao-curriculo:hover {
+    background: #0056b3;
+}
+
+.pdf-viewer {
+    width: 1400px; /* 95% da largura da tela */
+    max-width: 1400px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza */
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Esconde o overflow */
+    height: 800px; /* Altura fixa */
+}
+
+@media (max-width: 768px) {
+    .pdf-viewer {
+        height: 200px;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
