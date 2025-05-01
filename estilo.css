@@ -148,7 +148,7 @@ h1 {
 
 .botao-curriculo {
     display: inline-block;
-    background: #007BFF;
+    background: #000000;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     text-decoration: none;
@@ -158,7 +158,7 @@ h1 {
 }
 
 .botao-curriculo:hover {
-    background: #0056b3;
+    background: #070a58;
 }
 
 .pdf-viewer {
@@ -181,5 +181,77 @@ h1 {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+}
+
+/* Estilo da seção */
+.contatos-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contatos-section h1 {
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* Container dos botões */
+.contatos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo base dos botões */
+.contato-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão do Instagram */
+.instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+}
+
+/* Botão do LinkedIn */
+.linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+/* Efeitos hover */
+.contato-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
+}
+
+/* Ícones (usando Font Awesome) */
+.contato-link i {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .contatos-container {
+        flex-direction: column;
+    }
+    
+    .contato-link {
+        width: 100%;
+        justify-content: center;
     }
 }
