@@ -121,7 +121,7 @@ main {
 }
 
 .curriculo-section {
-    background-color: #005eff;
+    background-color: #13032e;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
@@ -132,6 +132,7 @@ main {
     text-align: center;
     color: rgba(0, 0, 0, 0)
 }
+
 .Mensagem{
 color: #ffffff;
 }
