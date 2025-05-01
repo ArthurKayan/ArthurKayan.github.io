@@ -169,7 +169,7 @@ h1 {
     height: 800px; /* Altura fixa */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
     .pdf-viewer {
         height: 200px;
     }
